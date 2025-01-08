@@ -7,7 +7,7 @@
 .navbar{
     background-color: black;
     color: white;
-    height: 60px;
+    height: 65px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -15,14 +15,15 @@
 
 /*nav-logo*/
 .nav-logo{
+    margin-top: 30px;
     height: 50px;
     width: 100px;
-
+    margin-bottom: 25px;
 }
 .logo{
     background-size: cover;
-    height: 50px;
-    width: 115%;
+    height: 20px;
+    width: 80%;
 }
 .border{
     border: 2px solid transparent;
@@ -88,7 +89,7 @@
 /*nav-language*/
 .lan-select{
     color: #ffffff;
-    background-color: #0f1111;
+    background-color: black;
     font-size: 14px;
     border: none;
 }
@@ -119,7 +120,6 @@ span{
     color: white;
     align-items: center;
     justify-content: space-evenly;
-    
 }
 
 .panel-ops p {
@@ -137,12 +137,35 @@ span{
     font-weight: 700px;
 }
 
-/*main-section*/
-.main{
+.header-slider ul {
     display: flex;
-    background-size: cover;
-    height: 300px;
-    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img23/Toys/Sakshi/HTL/DesktopHeroTemplate_3000x1200_2._CB539390415_.jpg);
+    overflow-y: hidden;
+}
+
+.header-img {
+    width: 100%;
+    mask-image: linear-gradient(to bottom, #000000 50%, transparent 100%);
+}
+
+.header-slider {
+    margin-top: -0.99%;
+}
+.header-slider a {
+    position: absolute;
+    top: 20%;
+    z-index: 1;
+    padding: 5vh 1vw;
+    background: #ffffff4f;
+    color: #0000007b;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.control_next {
+
+    right: 0;
 }
 /*shop-section*/
 .box{
@@ -151,8 +174,10 @@ span{
     background-color: white;
     padding: 20px 0px 15px;
     margin-top: 15px;
+    z-index: 1;
 }
 .shop-section{
+    margin-top: -20vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
