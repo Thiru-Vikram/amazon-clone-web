@@ -7,4 +7,4 @@ This is a basic front-end clone of Amazon, built using HTML, CSS, and JavaScript
 -> JavaScript
 
 # Link:
-https://thiru-vikram.github.io/Amazon_Clone/
+https://thiru-vikram.github.io/amazon-clone-web/
