@@ -1,10 +1,23 @@
-# Amazon_Clone
-This is a basic front-end clone of Amazon, built using HTML, CSS, and JavaScript. The project was created as part of my web development learning process to gain hands-on experience with web design and interactivity.
+# Amazon Clone
 
-# Technologies Used
--> HTML <br>
--> CSS <br>
--> JavaScript
+A basic front-end clone of Amazon, built with HTML, CSS, and JavaScript.
 
-# Link:
-https://thiru-vikram.github.io/amazon-clone-web/
+## Features
+- Responsive design
+- Product listings
+- Navigation bar
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+
+## Live Demo
+[View here](https://thiru-vikram.github.io/amazon-clone-web/)
+
+## Getting Started
+1. Clone the repo
+2. Open `index.html` in your browser
+
+## Credits
+Inspired by Amazon’s UI for educational purposes.
